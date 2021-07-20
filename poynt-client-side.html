@@ -318,8 +318,3 @@
 
 </body>
 </html>
-
-String cgus = Tools.downloadFile(rootUrl + "user/app/whitelabel/userConditions.html");
-String agreement = "<p><br><br><br><br><br></p><h1 style=\"font-size:150px;\"><strong>" + setup.getLegalMessage(currentTransac.getLanguage()) + "</strong></h1><p><br></p><p><br>"
-        + "<I>" + getResources().getString(R.string.terms_and_conditions_second_screen_header) + "</I><hr noshade ></p><p><br><br></p>";
-agreement += cgus;
